@@ -1,28 +1,4 @@
-/* 
 
-TemplateMo 562 Space Dynamic
-
-https://templatemo.com/tm-562-space-dynamic
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
 /* 
 ---------------------------------------------
 font & reset css
@@ -42,6 +18,11 @@ figure, header, nav, section, article, aside, footer, figcaption {
   padding: 0;
   border: 0;
   outline: 0;
+}
+
+
+.main-nav {
+  align-items:left;
 }
 
 /* clear fix */
@@ -252,17 +233,17 @@ header
 .background-header .logo,
 .background-header .main-nav .nav li a {
   color: #1e1e1e!important;
-  text-align: left;
+ 
 }
 
 .background-header .main-nav .nav li:hover a {
   color: #fe3f40!important;
-  text-align: left;
+  
 }
 
 .background-header .nav li a.active {
   color: #fe3f40!important;
-  text-align: left;
+ 
 }
 
 .header-area {
@@ -282,7 +263,7 @@ header
 .header-area .main-nav {
   min-height: 80px;
   background: transparent;
-  text-align: left;
+  
 }
 
 .header-area .main-nav .logo {
@@ -297,7 +278,7 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  text-align: left;
+ 
 }
 
 .header-area .main-nav .logo h4 {
@@ -311,7 +292,7 @@ header
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    text-align: left;
+   
 }
 
 .logo h4 span {
@@ -320,12 +301,12 @@ header
 
 .background-header .main-nav .logo h4 {
   line-height: 80px;
-  text-align: left;
+
 }
 
 .background-header .main-nav .nav {
   margin-top: 20px !important;
-  text-align: left;
+
 }
 
 .header-area .main-nav .nav {
@@ -339,19 +320,19 @@ header
   transition: all 0.3s ease 0s;
   position: relative;
   z-index: 999;
-  text-align: left;
+
 }
 
 .header-area .main-nav .nav li {
   padding-left: 20px;
   padding-right: 20px;
-  text-align: left;
+ 
 }
 
 .header-area .main-nav .nav li:last-child {
   padding-right: 0px;
   padding-left: 40px;
-  text-align: left;
+
 }
 
 .header-area .main-nav .nav li:last-child a ,
@@ -359,13 +340,13 @@ header
   color: #fff !important;
   padding: 0px 20px;
   font-weight: 400;
-  text-align: left;
+
 }
 
 .header-area .main-nav .nav li:last-child a:hover,
 .header-area .main-nav .nav li:last-child a.active {
   color: #fff !important;
-  text-align: left;
+
 }
 
 .header-area .main-nav .nav li a {
@@ -382,37 +363,37 @@ header
   line-height: 40px;
   border: transparent;
   letter-spacing: 1px;
-  text-align: left;
+
 }
 
 .header-area .main-nav .nav li a {
   color: #2a2a2a;
-  text-align: left;
+
 }
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   color: #fe3f40!important;
-  text-align: left;
+
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
   color: #fe3f40!important;
   opacity: 1;
-  text-align: left;
+
 }
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
   background-color: #03a4ed;
-  text-align: left;
+  
 }
 
 .header-area .main-nav .nav li.submenu {
   position: relative;
   padding-right: 30px;
-  text-align: left;
+  
 }
 
 .header-area .main-nav .nav li.submenu:after {
@@ -423,12 +404,12 @@ header
   position: absolute;
   right: 18px;
   top: 12px;
-  text-align: left;
+ 
 }
 
 .background-header .main-nav .nav li.submenu:after {
   color: #2a2a2a;
-  text-align: left;
+
 }
 
 .header-area .main-nav .nav li.submenu ul {
