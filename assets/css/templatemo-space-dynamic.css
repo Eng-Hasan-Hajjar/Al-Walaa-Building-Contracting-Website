@@ -22,7 +22,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 
 
 .main-nav {
-  align-items:left;
+  align-items:right;
 }
 
 /* clear fix */
@@ -77,7 +77,7 @@ ul, li {
 
 header, nav, section, article, aside, footer, hgroup {
   display: block;
-  text-align: left;
+  text-align: right;
 }
 
 * {
