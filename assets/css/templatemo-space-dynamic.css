@@ -20,6 +20,10 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+.iconstyle{
+  width:100px; height: 40px;padding-top: 10px; background:rgb(255 103 129);border-radius: 20px;margin:10px ;
+}
+
 
 .main-nav {
   align-items:right;
@@ -1325,7 +1329,7 @@ contact
   display: inline-block;
   text-align: center;
   line-height: 46px;
-  background-color: #fff;
+  background-color: rgb(255 103 129);
   border-radius: 50%;
   color: #ff3b2c;
   font-size: 22px;
